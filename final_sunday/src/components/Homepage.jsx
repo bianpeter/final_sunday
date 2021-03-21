@@ -28,7 +28,10 @@ function Homepage() {
 
 
   //post request
+  
   function submit () {
+    console.log("post-request")
+    /*
     fetch("./data/data.json", {
       method: "POST",
       headers: {
@@ -41,8 +44,8 @@ function Homepage() {
       .finally(() => setTimeout(SetIsShow(false), 5000))
 
       console.log(email)
+      */
   }
-
 
   return (
     <div className="homepage">
