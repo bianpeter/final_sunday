@@ -10,3 +10,10 @@ npm install @material-ui/styles
 
 //unique keys
 npm install uuid
+
+gh pages
+
+1. npm run build
+   vagy package.jsonbe: "homepage": "."
+2. gitignore -build
+   vagy build/index.html átírni /static => ./static
