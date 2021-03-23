@@ -11,9 +11,17 @@ npm install @material-ui/styles
 //unique keys
 npm install uuid
 
-gh pages
+gh pages :
+https://bianpeter.github.io/final_sunday/final_sunday/build/
 
+docker:
+https://hub.docker.com/r/bianpeter/final_sunday
+
+
+
+To post on gh pages:
+   package.jsonbe: "homepage": "."
+   or
+   after build -> build/index.html rewrite /static to ./static
 1. npm run build
-   vagy package.jsonbe: "homepage": "."
 2. gitignore -build
-   vagy build/index.html átírni /static => ./static
