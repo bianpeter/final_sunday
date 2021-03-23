@@ -1,4 +1,4 @@
-# final_sunday_reka
+# final_sunday
 
 Install
 
